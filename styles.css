@@ -145,3 +145,13 @@
     color: white;
     border-radius: 5px;
 }
+.footer-section{
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px;
+}
+.footer-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
