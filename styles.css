@@ -10,7 +10,7 @@
 .section1{
     background-color: #1f2937;
     height: auto;
-    padding: 8px;
+    padding-bottom: 80px;
     overflow: hidden;
 }
 .section1 .header{
@@ -74,4 +74,74 @@
 }
 .section2{
     clear: both;
+}
+.section2{
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section2 h2{
+    text-align: center;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.mypic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 20px;
+
+}
+.mypic > img:hover{
+     border: 1px solid black;
+     box-shadow: 0 8px 8px 8px rgb(88, 92, 94);
+     border-radius: 10px;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 20px;
+    overflow: hidden;
+}
+.section3-content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.section3-content h3{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+.section4{
+    overflow: hidden;
+}
+.section4-content{
+    background-color: #3882f6;
+    width: 50%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+.fist{
+    float: left;
+    padding: 20px 20px 20px 60px;
+}
+.fist > p, h3{
+    color: white;
+}
+.second{
+    float:right;
+    padding: 30px 60px 0 0;
+}
+.second > button{
+    width: 80px;
+    padding: 4px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
 }
