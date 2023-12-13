@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    margin: 0;
+    padding: 8px;
+}
+.section1{
+    background-color: #1f2937;
+}
+.section1 .header{
+    margin: 10px;
+    background-color: aquamarine;
+    color: white;
+    
+}
+.section1 .header h1{
+    padding: 20px 0 20px 100px;
+    display:inline-block
+    
+
+}
+ .right-float{
+    display: inline-block;
+    float: right;
+ }
+
