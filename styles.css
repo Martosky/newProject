@@ -9,21 +9,69 @@
 }
 .section1{
     background-color: #1f2937;
+    height: auto;
+    padding: 8px;
+    overflow: hidden;
 }
 .section1 .header{
     margin: 10px;
-    background-color: aquamarine;
     color: white;
     
 }
 .section1 .header h1{
     padding: 20px 0 20px 100px;
-    display:inline-block
+    display:inline-block;
     
-
+}
+.header > h1:hover{
+    transform:rotate(360deg);
+    cursor: pointer;
 }
  .right-float{
-    display: inline-block;
+    display: block;
     float: right;
+    padding: 30px 100px;
+    
  }
-
+.right-float > a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.right-float > a:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+.container-content{
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.left-content{
+    float: left;
+    width: 35%;
+    margin: 0;
+}
+.left-content > h2, p{
+    color: white;
+}
+.left-content >button{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 5px;
+    width: 70px;
+}
+.right-content{
+    float: right;
+    margin: 0;
+    width: 35%;
+}
+.section2{
+    clear: both;
+}
